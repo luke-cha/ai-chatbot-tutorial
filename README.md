@@ -41,7 +41,8 @@ One of the main advantages of Sendbird is that it provides a variety of SDKs and
 
 - Android example ~~~ (TBD)
 - Sample Code (TBD)
-  <img width="277" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0239b765-441d-49c1-afec-803803384538">
+ 
+    <img width="277" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0239b765-441d-49c1-afec-803803384538">
 
 
 ## 5. Utilizing Chat History
