@@ -3,8 +3,11 @@
 In this tutorial, we guide you on how to create an AI chatbot named using the Sendbird platform. AI Chatbot generates optimal responses to user inquiries and improves the user experience by utilizing previous chat records.
 
 ## Prerequisites
-- **Sendbird Account:** Create and sign in to your account on the Sendbird website.
-- **Create a Application:** Create a new application on the Sendbird dashboard. You can specify the application name and other settings.
+- **Sendbird Account:** Go to [Sendbird Dashboard](https://dashboard.sendbird.com/) and create an account for a free trial. If you already have a Sendbird account, sign into your account.
+- **Create a Application:**
+  1. Create a new application by clicking **Create +** at the bottom right of your screen.
+  2. Enter a name for your application. Choose a **Product Type** and **Region**. Then, click **Confirm**.
+  3. Click the application you just created under **Applications**. You will see the application's Application ID which you will need when initializing the Chat SDK.
 - **Knowledge Base Source:** Prepare data for Clark to reference in PDF or txt format. This data will serve as the Knowledge Base Source that Clark will use to generate responses.
   - I will Prepare [Italian CookBook Pdf file](https://drive.google.com/file/d/1uZmBBDEutwj5PAoXSJggZStj6ISwte5H/view)
   - And Prepare [Korean Food Recipes](https://thewoksoflife.com/16-easy-korean-recipes/)
@@ -15,21 +18,21 @@ In this tutorial, we guide you on how to create an AI chatbot named using the Se
    ![image](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0cc6cafd-ba02-44e4-b710-3afacf4f9e44)
 
 ## 2. Set Up Your AI Chatbot
-1. Click on the "Create Bot" button to set up a new AI chatbot.
-2. In the "Bot Name" field, enter "Korea Food Master", and make sure to select a unique "Bot ID".
-3. For the "Bot AI Engine", select "OpenAI ChatGPT". (Note: Google Bard is currently under development.)
-4. Specify the Knowledge Base Source. There are three options:
+1. Click on the **Create Bot** button to set up a new AI chatbot.
+2. In the **Bot Name** field, enter **Korea Food Master**, and make sure to select a unique **Bot ID**.
+3. For the **Bot AI Engine**, select **OpenAI ChatGPT**. (Note: Google Bard is currently under development.)
+4. Specify the **Knowledge Base Source**. There are three options:
    - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
      <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
 
-   - File: In this option, you can select a PDF or txt file as the Knowledge Base Source.    
+   - File: In this option, you can select a **PDF** or **txt** file as the Knowledge Base Source.    
      <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/1051dae9-c7d4-4ac1-8dcb-759b0656bcf2">
 
-   - URL: In this option, the contents of a specified URL will be automatically analyzed and used as the Knowledge Base Source.
+   - URL: In this option, the contents of a specified **URL** will be automatically analyzed and used as the Knowledge Base Source.
      <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/d7494b78-8eb8-4b19-988b-ff606b1d1855">
 
 
-5. Click on the "Create" button to create your AI Chatbot.
+5. Click on the **Create** button to create your AI Chatbot.
 
 ## 3. Testing Your AI Chatbot
 After your chatbot has been created, you can start testing conversations directly from the web interface.
