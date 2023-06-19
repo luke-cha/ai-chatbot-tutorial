@@ -43,6 +43,6 @@ One of the main advantages of Sendbird is that it provides a variety of SDKs and
 ## 5. Utilizing Chat History
 You can utilize previous chat history to enhance the user experience AI Chatbot.
 
-~~~
+- (TBD)
 
 You can proceed with the process of creating AI Chatbot by referencing this tutorial. You can implement each step in detail and expand additional functions as needed. Best of luck with your project!
