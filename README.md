@@ -22,9 +22,8 @@ In this tutorial, we guide you on how to create an AI chatbot named using the Se
    - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
      <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
 
-   - File: In this option, you can select a PDF or txt file as the Knowledge Base Source.
-    ![image](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0e930258-37de-470c-a459-0a662eabff9a)
-
+   - File: In this option, you can select a PDF or txt file as the Knowledge Base Source.    
+     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0e930258-37de-470c-a459-0a662eabff9a">
    - URL: In this option, the contents of a specified URL will be automatically analyzed and used as the Knowledge Base Source.
      <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/d7494b78-8eb8-4b19-988b-ff606b1d1855">
 
@@ -46,4 +45,4 @@ You can utilize previous chat history to enhance the user experience AI Chatbot.
 
 ~~~
 
-You can proceed with the process of creating Clark, the Sendbird bot, by referencing this tutorial. You can implement each step in detail and expand additional functions as needed. Best of luck with your project!
+You can proceed with the process of creating AI Chatbot by referencing this tutorial. You can implement each step in detail and expand additional functions as needed. Best of luck with your project!
