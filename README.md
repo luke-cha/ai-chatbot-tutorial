@@ -39,13 +39,19 @@ After your chatbot has been created, you can start testing conversations directl
 ## 4. Sendbird SDK and UIKit
 One of the main advantages of Sendbird is that it provides a variety of SDKs and UIKit. This makes it easy to integrate chat functionality directly into your platforms.
 
-- Android
-   - Sample Code (TBD)
+- Android(Link: TBD)
+   1. Set a application ID
      ```
      ~~~
      ```
+   2. Make a Chatroob with AI Chatbot
+     ```
+     ~~~~
+     ```  
       <img width="277" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0239b765-441d-49c1-afec-803803384538">
 
+- iOS(?)
+- React(?)
 
 ## 5. Utilizing Chat History
 You can utilize previous chat history to enhance the user experience AI Chatbot.
