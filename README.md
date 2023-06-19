@@ -20,20 +20,20 @@ In this tutorial, we guide you on how to create an AI chatbot named using the Se
 3. For the "Bot AI Engine", select "OpenAI ChatGPT". (Note: Google Bard is currently under development.)
 4. Specify the Knowledge Base Source. There are three options:
    - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
-     <img width="465" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
+     <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
 
    - File: In this option, you can select a PDF or txt file as the Knowledge Base Source.
     ![image](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0e930258-37de-470c-a459-0a662eabff9a)
 
    - URL: In this option, the contents of a specified URL will be automatically analyzed and used as the Knowledge Base Source.
-     <img width="974" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/d7494b78-8eb8-4b19-988b-ff606b1d1855">
+     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/d7494b78-8eb8-4b19-988b-ff606b1d1855">
 
 
 5. Click on the "Create" button to create your AI Chatbot.
 
 ## 3. Testing Your AI Chatbot
 After your chatbot has been created, you can start testing conversations directly from the web interface.
-<img width="1369" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/6f52597a-fdf8-4be4-99ed-d2e57e7e102c">
+<img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/6f52597a-fdf8-4be4-99ed-d2e57e7e102c">
 
 
 ## 4. Sendbird SDK and UIKit
