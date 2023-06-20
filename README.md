@@ -1,6 +1,6 @@
 # Creating an AI Chatbot Using Sendbird
 
-In this tutorial, we guide you on how to create an AI chatbot named using the Sendbird platform. AI Chatbot generates optimal responses to user inquiries and improves the user experience by utilizing previous chat records.
+In this tutorial, we will guide you on how to create an AI chatbot using the Sendbird platform. AI chatbots generate optimal responses to user inquiries and enhance the user experience by utilizing previous chat records. By using Sendbird's AI Chatbot, it is important to emphasize that you can easily create such sophisticated AI chatbots on various platforms. This allows you to effortlessly incorporate knowledge-based chatbots into your channels.
 
 ## Prerequisites
 - **Sendbird Account:** Go to [Sendbird Dashboard](https://dashboard.sendbird.com/) and create an account for a free trial. If you already have a Sendbird account, sign into your account.
@@ -15,7 +15,7 @@ In this tutorial, we guide you on how to create an AI chatbot named using the Se
 ## 1. Navigate to Your Sendbird Application
 1. Navigate to the application you created on the Sendbird Dashboard.
 2. In the dashboard, navigate to the "Chat" menu and click on "AI Chatbot" under it.
-   ![image](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/0cc6cafd-ba02-44e4-b710-3afacf4f9e44)
+   <img width="1000" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/e7d00cf0-fcf0-440b-8506-b46c077fff0d">
 
 ## 2. Set Up Your AI Chatbot
 1. Click on the **Create Bot** button to set up a new AI chatbot.
@@ -23,13 +23,15 @@ In this tutorial, we guide you on how to create an AI chatbot named using the Se
 3. For the **Bot AI Engine**, select **OpenAI ChatGPT**. (Note: Google Bard is currently under development.)
 4. Specify the **Knowledge Base Source**. There are three options:
    - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
-     <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
+     <img width="400" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
 
    - File: In this option, you can select a **PDF** or **txt** file as the Knowledge Base Source.    
-     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/1051dae9-c7d4-4ac1-8dcb-759b0656bcf2">
+     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/47d9410d-fce2-46c8-a118-b9cd2ffb12c3">
+
 
    - URL: In this option, the contents of a specified **URL** will be automatically analyzed and used as the Knowledge Base Source.
-     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/d7494b78-8eb8-4b19-988b-ff606b1d1855">
+     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/235d367d-edf5-4cd7-b0ba-6b9a5329605c">
+
 
 
 5. Click on the **Create** button to create your AI Chatbot.
