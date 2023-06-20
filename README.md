@@ -24,13 +24,13 @@ In this tutorial, we will guide you on how to create an AI chatbot using the Sen
 3. For the **Bot AI Engine**, select **OpenAI ChatGPT** for this time.
 4. Specify the **Knowledge Base Source**. There are three options:
    - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
-     <img width="400" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/005398f0-130f-478f-9121-c1d9795378bb">
+     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/d95d82a5-6e43-4939-8bf0-dfaf022f62ed">
 
    - File: In this option, you can select a **PDF** or **txt** file as the Knowledge Base Source.
-     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/235d367d-edf5-4cd7-b0ba-6b9a5329605c">
+     <img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/235d367d-edf5-4cd7-b0ba-6b9a5329605c">
 
    - URL: In this option, the contents of a specified **URL** will be automatically analyzed and used as the Knowledge Base Source.
-     <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/47d9410d-fce2-46c8-a118-b9cd2ffb12c3">
+     <img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/47d9410d-fce2-46c8-a118-b9cd2ffb12c3">
 
 5. Click on the **Create** button to create your AI Chatbot.
 
