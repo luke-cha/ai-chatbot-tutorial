@@ -49,7 +49,7 @@ One of the main advantages of Sendbird is that it provides a variety of SDKs and
 - React-Native([UIKit](https://sendbird.com/docs/uikit/v3/react-native/overview))
 - Flutter([SDK](https://sendbird.com/docs/chat/v4/flutter/getting-started/send-first-message))
 - Unity([SDK](https://sendbird.com/docs/chat/v3/unity/quickstart/send-first-message))
-- Unreal([SDK](https://sendbird.com/docs/chat/v3/unreal/getting-started/send-first-message
+- Unreal([SDK](https://sendbird.com/docs/chat/v3/unreal/getting-started/send-first-message))
 - .Net([SDK](https://sendbird.com/docs/chat/v3/dotnet/quickstart/send-first-message))
 
 You can effectively incorporate the AI Chatbot we built earlier, utilizing Sendbird iOS UIKit in real-world applications. If you're intrigued and want to try the 'Korean Food Master Bot' that I've developed, I encourage you to explore the provided sample repository.
