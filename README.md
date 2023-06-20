@@ -52,11 +52,11 @@ One of the main advantages of Sendbird is that it provides a variety of SDKs and
 - Unreal([SDK](https://sendbird.com/docs/chat/v3/unreal/getting-started/send-first-message))
 - .Net([SDK](https://sendbird.com/docs/chat/v3/dotnet/quickstart/send-first-message))
 
-You can effectively incorporate the AI Chatbot we built earlier, utilizing Sendbird iOS UIKit in real-world applications. If you're intrigued and want to try the 'Korean Food Master Bot' that I've developed, I encourage you to explore the provided sample repository.
-1. Clone iOS **Korean Food Master Bot** Sample Repository
-2. Open the Project and Run on Simulator
-3. Input User ID
-4. Chat with **Korean Food Master Bot**
+You can effectively incorporate the AI Chatbot we built earlier, utilizing Sendbird React UIKit in real-world applications. If you're intrigued and want to try the 'Korean Food Master Bot' that I've developed, I encourage you to explore the provided sample repository.
+1. Clone iOS **Korean Food Master Bot** Sample Repository.
+2. Open the Project and Run it.
+3. Input User ID.
+4. Chat with **Korean Food Master Bot**.
 
 ## 5. How to utilize the Chat history(TBD)
 You can utilize previous chat history to enhance the user experience AI Chatbot.
