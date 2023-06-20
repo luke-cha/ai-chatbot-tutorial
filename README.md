@@ -58,7 +58,7 @@ You can effectively incorporate the AI Chatbot we built earlier, utilizing Sendb
 3. Input User ID
 4. Chat with **Korean Food Master Bot**
 
-## 5. How to utilize the Chat history(Not Sure yet!)
+## 5. How to utilize the Chat history(TBD)
 You can utilize previous chat history to enhance the user experience AI Chatbot.
 
 - (TBD)
