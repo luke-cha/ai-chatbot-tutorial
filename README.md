@@ -97,7 +97,8 @@ Introducing the [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-wi
    npm start
    ```
    Then you can see the following web screen, click Widget in the bottom right, you can get AI Bot easily and quickly! 
-   <img width="400" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/3b18ca4d-e032-4cde-b149-5dd7edbf67d3">
+   <img width="523" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/57494068-24d8-4ce3-83a1-243a866b0680">
+
 
 ### 4.1. Customer Service Chat Support
 
