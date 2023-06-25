@@ -1,7 +1,14 @@
 # Creating an AI Chatbot Using Sendbird
 
-In this tutorial, we're going to reveal the secrets behind creating a powerful AI chatbot using the Sendbird platform. AI chatbots, designed to provide top-tier responses to user inquiries, enhance the interaction experience by learning from previous chat records. But here's the exciting part - by leveraging Sendbird's AI Chatbot, you're not just creating a chatbot, you're creating your very own personalized AI assistant.
-This system allows for seamless integration of knowledge-based chatbots into your channels. The best part? It's incredibly straightforward. Yes, you heard it right. With Sendbird, creating your AI chatbot isn't just possible, it's easy! Embrace the chance to transform the way you interact with your users, making their experience richer and more engaging. This is not just about creating a chatbot, it's about empowering your platform with the intelligence and responsiveness of AI. Step into the future, it's easier than you think!
+In this tutorial, we're going to reveal the secrets behind creating a powerful AI chatbot using the Sendbird platform.
+
+AI chatbots, designed to provide top-tier responses to user inquiries, enhance the interaction experience by learning from previous chat records. But here's the exciting part - by leveraging Sendbird's AI Chatbot, you're not just creating a chatbot, you're creating your very own personalized AI assistant.
+
+This system allows for seamless integration of knowledge-based chatbots into your channels. The best part? It's incredibly straightforward. Yes, you heard it right. With Sendbird, creating your AI chatbot isn't just possible, it's easy!
+
+Embrace the chance to transform the way you interact with your users, making their experience richer and more engaging. This is not just about creating a chatbot, it's about empowering your platform with the intelligence and responsiveness of AI.
+
+Step into the future, it's easier than you think!
 
 ## Prerequisites
 - **Sendbird Account:** Go to [Sendbird Dashboard](https://dashboard.sendbird.com/) and create an account for a free trial. If you already have a Sendbird account, sign into your account.
