@@ -51,9 +51,52 @@ After your chatbot has been created, you can start testing conversations directl
 Introducing the [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-widget/), a tool I developed to make it even easier to use Sendbird Bots. By simply inputting your Sendbird App ID and Bot ID, you can quickly apply the Sendbird Chat AI Widget to enhance your AI Bot capabilities.
 
 1. Create a `React Project`.
+   ```
+   npx create-react-app react-sample
+   cd react-sample
+   ```
 2. Install `ChatAIWidget` NPM Library.
-3. Modify `App.js`.
+   ```
+   npm install @sendbird/chat-ai-widget
+   ```
+3. Modify `src/App.js` like this.
+   ```
+import logo from './logo.svg';
+import './App.css';
+import ChatAiWidget from "@sendbird/chat-ai-widget";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+      <ChatAiWidget
+          applicationId="AE8F7EEA-4555-4F86-AD8B-5E0BD86BFE67"
+          botId="korean-food-master"
+      />
+    </div>
+  );
+}
+
+export default App;
+   ```
 4. Run it!
+   ```
+   npm start
+   ```
+   <img width="500" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/3b18ca4d-e032-4cde-b149-5dd7edbf67d3">
 
 ### 4.1. Customer Service Chat Support
 
