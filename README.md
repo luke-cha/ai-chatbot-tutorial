@@ -16,8 +16,8 @@ Step into the future, it's easier than you think!
   1. Create a new application by clicking **Create +** at the bottom right of your screen.
   2. Enter a name for your application. Choose a **Product Type** and **Region**. Then, click **Confirm**.
   3. Click the application you just created under **Applications**. You will see the application's Application ID which you will need when initializing the Chat SDK.
-- **Knowledge Base Source:** Prepare data for AI ChatBot to reference in PDF or txt format. This data will serve as the Knowledge Base Source that AI Chatbot will use to generate responses.
-  - Examples for Tutorial
+- **Knowledge Base Source:** Prepare data for AI ChatBot to reference in `PDF` or `txt` format. This data will serve as the Knowledge Base Source that AI Chatbot will use to generate responses.
+  - References for Tutorial
     - PDF: [Italian CookBook Pdf file](https://drive.google.com/file/d/1uZmBBDEutwj5PAoXSJggZStj6ISwte5H/view)
     - URL: [Khan Academy](https://www.khanacademy.org/)
 
@@ -35,11 +35,9 @@ Step into the future, it's easier than you think!
      <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/c6912865-a88c-4e9f-b7cf-99569ffee8ae">
 
    - File: In this option, you can select a **PDF** or **txt** file as the Knowledge Base Source.
-     - PDF used: [Italian CookBook Pdf file](https://drive.google.com/file/d/1uZmBBDEutwj5PAoXSJggZStj6ISwte5H/view)    
      <img width="600" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/7210bafe-1d42-4593-aae2-180cd6375689">
 
    - URL: In this option, the contents of a specified **URL** will be automatically analyzed and used as the Knowledge Base Source.
-     - URL used: [Khan Academy](https://www.khanacademy.org/)
      <img width="600" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/356bd70d-9e47-4638-8687-1cd2f00abe56">
 
 5. Click on the **Create** button to create your AI Chatbot.
