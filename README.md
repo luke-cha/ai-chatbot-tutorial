@@ -37,8 +37,7 @@ This system allows for seamless integration of knowledge-based chatbots into you
 
 ## 3. Testing Your AI Chatbot
 After your chatbot has been created, you can start testing conversations directly from the web interface.
-<img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/6f52597a-fdf8-4be4-99ed-d2e57e7e102c">
-
+<img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/f1d39df3-b50a-4c6d-a419-ef4bca5dcb87">
 
 ## 4. Next Step
 
