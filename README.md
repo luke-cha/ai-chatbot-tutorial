@@ -99,20 +99,7 @@ Introducing the [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-wi
    Then you can see the following web screen, click Widget in the bottom right, you can get AI Bot easily and quickly! 
    <img width="523" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/57494068-24d8-4ce3-83a1-243a866b0680">
 
-
-### 4.1. Customer Service Chat Support
-
-The Sendbird Chat AI Widget is an excellent tool for customer service chat support. Utilize the AI Bot to implement automated responses and pre-register frequently asked questions. The AI Bot can handle real-time user inquiries and provide assistance with problem-solving.
-
- - Example: You can chat with the United States Consumer Financial Protection Bureau Support Bot
-   
-### 4.2. Shopping and Reservation Support
-
-The Sendbird Chat AI Widget can be applied to support shopping websites and reservation platforms. With the AI Bot, you can promptly respond to queries regarding product information, stock availability, and reservation inquiries. Additionally, the AI Bot can offer personalized recommendations based on specific user demands, enhancing the overall user experience.
-
- - Example: You can chat with Airbnb Customer Service Bot
- 
-### 4.3. Learning Support
+### 4.1. Learning Support
 
 The Sendbird Chat AI Widget can also be leveraged for educational purposes. Use the AI Bot to answer students' questions, guide them through problem-solving processes, and provide information on learning materials and schedules. The AI Bot can interact with users to improve their learning experiences.
 
@@ -120,6 +107,15 @@ The Sendbird Chat AI Widget can also be leveraged for educational purposes. Use 
    - You can chat with [Khan Academy Bot](https://sendbird.github.io/chat-ai-widget/)
    - [Sendbird Docs Bot](https://sendbird.com/docs)
 
+### 4.2. Customer Service Chat Support
+
+The Sendbird Chat AI Widget is an excellent tool for customer service chat support. Utilize the AI Bot to implement automated responses and pre-register frequently asked questions. The AI Bot can handle real-time user inquiries and provide assistance with problem-solving.
+  
+### 4.3. Shopping and Reservation Support
+
+The Sendbird Chat AI Widget can be applied to support shopping websites and reservation platforms. With the AI Bot, you can promptly respond to queries regarding product information, stock availability, and reservation inquiries. Additionally, the AI Bot can offer personalized recommendations based on specific user demands, enhancing the overall user experience.
+
+ 
 In addition to these examples, the Sendbird Chat AI Widget can be utilized in various fields to develop AI Bot-powered services. For detailed information on the features and usage of the Sendbird Chat AI Widget, please refer to the GitHub repository at [https://github.com/sendbird/chat-ai-widget/](https://github.com/sendbird/chat-ai-widget/).
 
 Please feel free to customize and format the content according to your requirements and the structure of your documentation.
