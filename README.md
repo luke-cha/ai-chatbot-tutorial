@@ -116,7 +116,9 @@ The Sendbird Chat AI Widget can be applied to support shopping websites and rese
 
 The Sendbird Chat AI Widget can also be leveraged for educational purposes. Use the AI Bot to answer students' questions, guide them through problem-solving processes, and provide information on learning materials and schedules. The AI Bot can interact with users to improve their learning experiences.
 
- - Example: You can chat with [Khan Academy Bot](https://sendbird.github.io/chat-ai-widget/)
+ - Example
+   - You can chat with [Khan Academy Bot](https://sendbird.github.io/chat-ai-widget/)
+   - [Sendbird Docs Bot](https://sendbird.com/docs)
 
 In addition to these examples, the Sendbird Chat AI Widget can be utilized in various fields to develop AI Bot-powered services. For detailed information on the features and usage of the Sendbird Chat AI Widget, please refer to the GitHub repository at [https://github.com/sendbird/chat-ai-widget/](https://github.com/sendbird/chat-ai-widget/).
 
