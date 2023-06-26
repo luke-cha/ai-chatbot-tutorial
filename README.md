@@ -10,8 +10,7 @@ Embrace the chance to transform the way you interact with your users, making the
 
 Step into the future, it's easier than you think!
 
-![output](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/a61a4b2e-730a-4f3f-b326-11eadb61a55b)
-
+<img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/a61a4b2e-730a-4f3f-b326-11eadb61a55b">
 
 ## Prerequisites
 - **Sendbird Account:** Go to [Sendbird Dashboard](https://dashboard.sendbird.com/) and create an account for a free trial. If you already have a Sendbird account, sign into your account.
@@ -35,12 +34,16 @@ Step into the future, it's easier than you think!
 3. For the **Bot AI Engine**, select **OpenAI ChatGPT** for this time.
 4. Specify the **Knowledge Base Source**. There are three options:
    - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
+     
      <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/c6912865-a88c-4e9f-b7cf-99569ffee8ae">
 
-   - File: In this option, you can select a **PDF** or **txt** file as the Knowledge Base Source.
+   - File: In this option, you can select a **PDF** or **txt** files(Supported formats: .json, .txt, .md, .pdf
+Maximum file size: 5MB) as the Knowledge Base Source.
+
      <img width="600" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/7210bafe-1d42-4593-aae2-180cd6375689">
 
-   - URL: In this option, the contents of a specified **URL** will be automatically analyzed and used as the Knowledge Base Source.
+   - URL: In this option, the contents of a specified **URL**(Maximum: 10 URLs (up to 1,000 URL subpages per URL)) will be automatically analyzed and used as the Knowledge Base Source.
+     
      <img width="600" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/356bd70d-9e47-4638-8687-1cd2f00abe56">
 
 5. Click on the **Create** button to create your AI Chatbot.
