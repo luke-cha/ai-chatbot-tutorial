@@ -19,7 +19,7 @@ Step into the future, it's easier than you think!
   1. Create a new application by clicking **Create +** at the bottom right of your screen.
   2. Enter a name for your application. Choose a **Product Type** and **Region**. Then, click **Confirm**.
   3. Click the application you just created under **Applications**. You will see the application's Application ID which you will need when initializing the Chat SDK.
-- **Knowledge Base Source:** Prepare data for AI ChatBot to reference in `PDF` or `txt` format and also `URL`. This data will serve as the Knowledge Base Source that AI Chatbot will use to generate responses.
+- **Knowledge Base Source:** Prepare data for AI ChatBot to reference in `PDF` or `txt` format and `URL`. This data will serve as the Knowledge Base Source that AI Chatbot will use to generate responses.
   - References for Tutorial
     - PDF: [Italian CookBook Pdf file](https://drive.google.com/file/d/1uZmBBDEutwj5PAoXSJggZStj6ISwte5H/view)
     - URL: [Khan Academy](https://www.khanacademy.org/)
