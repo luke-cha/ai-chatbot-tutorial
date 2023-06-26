@@ -84,7 +84,7 @@ Introducing the [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-wi
          </header>
          <ChatAiWidget
              applicationId="AE8F7EEA-4555-4F86-AD8B-5E0BD86BFE67"
-             botId="korean-food-master"
+             botId="khan-academy-bot"
          />
        </div>
      );
