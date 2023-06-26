@@ -10,7 +10,7 @@ Embrace the chance to transform the way you interact with your users, making the
 
 Step into the future, it's easier than you think!
 
-![final_output](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/28954a40-c966-4611-bf7d-dd89c23eac6f)
+![output](https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/a61a4b2e-730a-4f3f-b326-11eadb61a55b)
 
 
 ## Prerequisites
