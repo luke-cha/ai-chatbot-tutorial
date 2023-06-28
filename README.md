@@ -1,71 +1,77 @@
-# Creating an AI Chatbot Using Sendbird
+# Create an AI Chatbot with Sendbird
 
-In this tutorial, we're going to reveal the secrets behind creating a powerful AI chatbot using the Sendbird platform.
+This tutorial demonstartes how to create a powerful AI chatbot using the Sendbird platform.
 
-AI chatbots, designed to provide top-tier responses to user inquiries, enhance the interaction experience by learning from previous chat records. But here's the exciting part - by leveraging Sendbird's AI Chatbot, you're not just creating a chatbot, you're creating your very own personalized AI assistant.
-
-This system allows for seamless integration of knowledge-based chatbots into your channels. The best part? It's incredibly straightforward. Yes, you heard it right. With Sendbird, creating your AI chatbot isn't just possible, it's easy!
-
-Embrace the chance to transform the way you interact with your users, making their experience richer and more engaging. This is not just about creating a chatbot, it's about empowering your platform with the intelligence and responsiveness of AI.
-
-Step into the future, it's easier than you think!
+AI chatbots are designed to provide comprehensive responses to user inquiries by learning from previous chat records, thus enhancing user experience. By leveraging Sendbird's AI chatbot, it can go beyond a simple chatbot to a personalized AI assistant with a seamless, easy-to-follow integration of knowledge-based chatbots into channels. You also can add or customize additional functions as needed after implementing the following codes. These AI chatbots can empower your service with a richer and more engaging user experience with a personalized assistance. 
 
 <img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/a61a4b2e-730a-4f3f-b326-11eadb61a55b">
 
 ## Prerequisites
-- **Sendbird Account:** Go to [Sendbird Dashboard](https://dashboard.sendbird.com/) and create an account for a free trial. If you already have a Sendbird account, sign into your account.
-- **Create a Application:**
-  1. Create a new application by clicking **Create +** at the bottom right of your screen.
+
+- **Sendbird account:**
+  1. Go to [Sendbird Dashboard](https://dashboard.sendbird.com/) and create an account for a free trial. If you already have a Sendbird account, sign into your account.
+  
+- **Application ID:**
+  1. Create a new Sendbird application by clicking **Create +** at the bottom-right corner of your screen.
   2. Enter a name for your application. Choose a **Product Type** and **Region**. Then, click **Confirm**.
-  3. Click the application you just created under **Applications**. You will see the application's Application ID which you will need when initializing the Chat SDK.
-- **Knowledge Base Source:** Prepare data for AI ChatBot to reference in `PDF` or `txt` format and `URL`. This data will serve as the Knowledge Base Source that AI Chatbot will use to generate responses.
-  - References for Tutorial
+  3. Click the application you just created under **Applications** on the top-left corner of your screen. 
+  4. On the **Overview** page, you can find the **Application ID** which you will need when initializing the Chat SDK.
+  
+- **Knowledge Base Source:** Prepare data source in `PDF` or `txt` format or its `URL` so that AI chatbot can learn in advance. This data will serve as the Knowledge Base Source that AI chatbot will use to generate responses.
+  - References for tutorial
     - PDF: [Italian CookBook Pdf file](https://drive.google.com/file/d/1uZmBBDEutwj5PAoXSJggZStj6ISwte5H/view)
     - URL: [Khan Academy](https://www.khanacademy.org/)
 
-## 1. Navigate to Your Sendbird Application
-1. Navigate to the application you created on the Sendbird Dashboard.
-2. In the dashboard, navigate to the **Chat** menu and click on **AI Chatbot** under it.
+## Integration
+
+### Step 1: Navigate to your Sendbird Application
+1. Go to the application you created on Sendbird Dashboard.
+2. In the left menu bar on the dashbaord, click **AI chatbots** under **Chat**.
    <img width="1000" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/e7d00cf0-fcf0-440b-8506-b46c077fff0d">
 
-## 2. Set Up Your AI Chatbot
-1. Click on the **Create Bot** button to set up a new AI chatbot.
-2. In the **Bot Name** field, enter **Bot Name** you want, and make sure to select a unique **Bot ID**(will be used to invite Bot when creating a new Chat Room).
-3. For the **Bot AI Engine**, select **OpenAI ChatGPT** for this time.
-4. Specify the **Knowledge Base Source**. There are three options:
-   - None: This uses the basic OpenAI Model, and you can adjust the specific parameters to suit your needs.
+### Step 3: Set up your AI chatbot
+1. Click on the **Create bot +** button to set up a new AI chatbot.
+2. In the **Bot Name** field, enter a unique **Bot Name** and **Bot ID** of your choice. Store the ID becuase it's needed when creating a channel for the Bot.
+3. For the **Bot AI engine**, select **OpenAI ChatGPT** for this time.
+4. Specify **Knowledge Base Source**. There are three options:
+   - None: the bot uses the basic OpenAI Model and you can adjust the specific parameters to your needs.
      
      <img width="300" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/c6912865-a88c-4e9f-b7cf-99569ffee8ae">
 
-   - File: In this option, you can select a **PDF** or **txt** files(Supported formats: .json, .txt, .md, .pdf
-Maximum file size: 5MB) as the Knowledge Base Source.
+   - File: you can select a **PDF** or **txt** file. Supported formats are `.json`, `.txt`, `.md`, and `.pdf`. The maximum file size is 5MB.
 
      <img width="600" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/7210bafe-1d42-4593-aae2-180cd6375689">
 
-   - URL: In this option, the contents of a specified **URL**(Maximum: 10 URLs (up to 1,000 URL subpages per URL)) will be automatically analyzed and used as the Knowledge Base Source.
+   - URL: the contents of a specified **URL**(Maximum: 10 URLs (up to 1,000 URL subpages per URL)) will be automatically analyzed and used as the bot's Knowledge Base Source.
      
      <img width="600" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/356bd70d-9e47-4638-8687-1cd2f00abe56">
 
-5. Click on the **Create** button to create your AI Chatbot.
+5. Click **Create**.
 
-## 3. Testing Your AI Chatbot
-After your chatbot has been created, you can start testing conversations directly from the web interface.
+### Step 3: Testing your AI chatbot
+
+After your chatbot is created, you can start a test conversation directly from the web interface.
 <img width="800" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/f1d39df3-b50a-4c6d-a419-ef4bca5dcb87">
 
-## 4. Next Step
+## Sendbird Chat AI Widget
 
-Introducing the [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-widget/), a tool I developed to make it even easier to use Sendbird Bots. By simply inputting your Sendbird App ID and Bot ID, you can quickly apply the Sendbird Chat AI Widget to enhance your AI Bot capabilities.
+Try [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-widget/) for an easier implementation of Sendbird AI chatbots. Enter your Sendbird App ID and Bot ID - you can quickly apply Sendbird Chat AI Widget to enhance your AI chatbots capabilities.
 
-1. Create a `React Project`.
+1. Create `React Project`.
+   
    ```bash
    npx create-react-app react-sample
    cd react-sample
-   ``` 
+   ```
+   
 2. Install `ChatAIWidget` NPM Library.
+
    ```bash
    npm install @sendbird/chat-ai-widget
    ```
-3. Modify `src/App.js` like this.
+   
+3. Modify `src/App.js` as follows.
+
    ```jsx
    import logo from './logo.svg';
    import './App.css';
@@ -98,37 +104,39 @@ Introducing the [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-wi
     
    export default App;
    ```
-4. Run it!
+   
+4. Run the codes.
+
    ```bash
    npm start
    ```
-   Then you can see the following web screen, click Widget in the bottom right, you can get AI Bot easily and quickly! 
+   
+ 5. Then you will see the following web screen. Click **Widget** at the bottom-right corner.
    <img width="523" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/57494068-24d8-4ce3-83a1-243a866b0680">
 
-### 4.1. Learning Support
+## Use cases
 
-The Sendbird Chat AI Widget can also be leveraged for educational purposes. Use the AI Bot to answer students' questions, guide them through problem-solving processes, and provide information on learning materials and schedules. The AI Bot can interact with users to improve their learning experiences.
+### Education
+
+Sendbird Chat AI Widget can also be leveraged for educational purposes. Use the AI chatbots to answer students' questions, guide them through problem-solving processes, and provide information on learning materials and schedules. The AI chatbots can interact with users to improve their learning experiences.
 
  - Example
    - You can chat with [Khan Academy Bot](https://sendbird.github.io/chat-ai-widget/)
    - [Sendbird Docs Bot](https://sendbird.com/docs)
 
-### 4.2. Customer Service Chat Support
+### Customer service
 
-The Sendbird Chat AI Widget is an excellent tool for customer service chat support. Utilize the AI Bot to implement automated responses and pre-register frequently asked questions. The AI Bot can handle real-time user inquiries and provide assistance with problem-solving.
+Sendbird Chat AI Widget is an excellent tool for customer service chat support. Utilize AI chatbots to implement automated assistance to pre-registered frequently asked questions. The AI chatbots can handle user inquiries real-time.
   
-### 4.3. Shopping and Reservation Support
+### Shopping and reservation 
 
-The Sendbird Chat AI Widget can be applied to support shopping websites and reservation platforms. With the AI Bot, you can promptly respond to queries regarding product information, stock availability, and reservation inquiries. Additionally, the AI Bot can offer personalized recommendations based on specific user demands, enhancing the overall user experience.
+Sendbird Chat AI Widget can be applied to shopping and reservation platforms. With the AI chatbots, you can promptly respond to queries regarding product information, inventory status, and reservations. Additionally, the AI chatbots can offer personalized recommendations based on a user's specific demands, enhancing the overall user experience.
 
- 
-In addition to these examples, the Sendbird Chat AI Widget can be utilized in various fields to develop AI Bot-powered services. For detailed information on the features and usage of the Sendbird Chat AI Widget, please refer to the GitHub repository at [https://github.com/sendbird/chat-ai-widget/](https://github.com/sendbird/chat-ai-widget/).
+In addition to these examples, Sendbird Chat AI Widget can be utilized in various fields to develop AI chatbots-powered services. For detailed information on the features and usage of Sendbird Chat AI Widget, see our [GitHub repository for the widget](https://github.com/sendbird/chat-ai-widget/).
 
-Please feel free to customize and format the content according to your requirements and the structure of your documentation.
+## Multi-platform support
 
-### 4.3. Multi-Platform Support
-
-Also another advantages of Sendbird is that it provides a variety of SDKs and UIKit. This makes it easy to integrate chat functionality directly into your platforms.
+Sendbird also provides SDKs and UIKit for a wide range of platforms, making it easier to integrate chat functionalities directly into your application.
 
 - Android([SDK](https://sendbird.com/docs/chat/v4/android/getting-started/send-first-message), [UIKit](https://sendbird.com/docs/uikit/v3/android/introduction/send-first-message))
 - iOS([SDK](https://sendbird.com/docs/chat/v4/ios/getting-started/send-first-message), [UIKit](https://sendbird.com/docs/uikit/v3/ios/introduction/send-first-message))
@@ -140,5 +148,3 @@ Also another advantages of Sendbird is that it provides a variety of SDKs and UI
 - Unreal([SDK](https://sendbird.com/docs/chat/v3/unreal/getting-started/send-first-message))
 - .Net([SDK](https://sendbird.com/docs/chat/v3/dotnet/quickstart/send-first-message))
 
-
-You can proceed with the process of creating AI Chatbot by referencing this tutorial. You can implement each step in detail and expand additional functions as needed. Best of luck with your project!
