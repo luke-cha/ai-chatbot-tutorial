@@ -114,7 +114,7 @@ Try [Sendbird Chat AI Widget](https://github.com/sendbird/chat-ai-widget/) for a
  5. Then you will see the following web screen. Click **Widget** at the bottom-right corner.
    <img width="523" alt="image" src="https://github.com/sf-luke-cha/ai-chatbot-tutorial/assets/104121286/57494068-24d8-4ce3-83a1-243a866b0680">
 
-## Use cases
+## AI Chatbot Use cases
 
 ### Education
 
